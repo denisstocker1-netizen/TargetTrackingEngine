@@ -61,9 +61,9 @@ $$\mathbf{x} = \begin{bmatrix} x & y & z & v_x & v_y & v_z & a_x & a_y & a_z \en
 
 ### Radar Observation Function $h(\mathbf{x})$
 $$h(\mathbf{x}) = \begin{bmatrix} 
-\sqrt{x^2 + y^2 + z^2} \\[0.5em]
-\mathrm{atan2}(y, x) \\[0.5em]
-\mathrm{atan2}(z, \sqrt{x^2 + y^2})
+\sqrt{x^2 + y^2 + z^2} \\ 
+\mathrm{atan2}(y, x) \\ 
+\mathrm{atan2}(z, \sqrt{x^2 + y^2}) 
 \end{bmatrix}$$
 
 ---

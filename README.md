@@ -108,6 +108,16 @@ cmake --build build
 
 # Run unit tests
 cd build && ctest --output-on-failure
+```
 
-## ── License
+## ── Building and Testing
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## ── Future Roadmap
+
+While the core estimation engine and lock-free concurrency pipeline are fully operational, the following enhancements are planned for future releases:
+
+* **Data Association & Gating:** Integration of Mahalanobis Distance Gating ($\chi^2$-test) to reject clutter/false alarms and pair incoming sensor measurements with active tracks.
+* **Track Lifecycle Management:** Implementation of a formal state machine ($M$-of-$N$ confirmation logic) for track initiation, tentative status, track confirmation, and track deletion (coasting).
+* **Multi-Target Tracking (MTT):** Extending the single-target Kalman Filter framework to handle multi-target environments using Global Nearest Neighbor (GNN) or Joint Probabilistic Data Association (JPDA).
+* **Benchmarking Suite:** Integration of Google Benchmark to quantify queue throughput, latency per update cycle, and cache-miss behavior under heavy load.

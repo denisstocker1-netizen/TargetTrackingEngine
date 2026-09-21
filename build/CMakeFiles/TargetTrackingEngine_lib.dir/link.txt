@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTargetTrackingEngine_lib.a CMakeFiles/TargetTrackingEngine_lib.dir/src/EKFUtils.cpp.o CMakeFiles/TargetTrackingEngine_lib.dir/src/KalmanFilter.cpp.o
+/usr/bin/ranlib libTargetTrackingEngine_lib.a

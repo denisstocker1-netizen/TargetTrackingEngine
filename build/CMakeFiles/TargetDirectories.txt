@@ -1,0 +1,6 @@
+/home/denis/Project/TargetTrackingEngine/build/CMakeFiles/TargetTrackingEngine_lib.dir
+/home/denis/Project/TargetTrackingEngine/build/CMakeFiles/TargetTrackingEngine.dir
+/home/denis/Project/TargetTrackingEngine/build/CMakeFiles/unit_tests.dir
+/home/denis/Project/TargetTrackingEngine/build/CMakeFiles/test.dir
+/home/denis/Project/TargetTrackingEngine/build/CMakeFiles/edit_cache.dir
+/home/denis/Project/TargetTrackingEngine/build/CMakeFiles/rebuild_cache.dir

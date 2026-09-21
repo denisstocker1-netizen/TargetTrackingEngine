@@ -1,0 +1,26 @@
+Start testing: Sep 20 20:27 CEST
+----------------------------------------------------------
+1/1 Testing: SPSCQueueTest
+1/1 Test: SPSCQueueTest
+Command: "/home/denis/Project/TargetTrackingEngine/build/unit_tests"
+Directory: /home/denis/Project/TargetTrackingEngine/build
+"SPSCQueueTest" start time: Sep 20 20:27 CEST
+Output:
+----------------------------------------------------------
+=== Running Unit Tests for SPSCQueue ===
+[Passed] Test 1: Initial State
+[Passed] Test 2: Full State
+[Passed] Test 3: Wrap around
+[Passed] Test 4: Measurement variant
+[PASSED] Test 5: State Vector Kinematics & Transformation
+[PASSED] Test 6: ADS-B Update
+=== All Unit Tests Passed Successfully! ===
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SPSCQueueTest" end time: Sep 20 20:27 CEST
+"SPSCQueueTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 20 20:27 CEST
